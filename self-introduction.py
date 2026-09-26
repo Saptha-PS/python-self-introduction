@@ -1,0 +1,13 @@
+#simple program for self-introduction
+name=input("Enter your name: ")
+age=int(input("Enter your age: "))
+year=int(input("Enter your year of birth: "))
+place=input("Enter where you are from: ")
+house=input("Who do you live with: ")
+good=input("You are good at: ")
+job=input("Your dream job[use a/an]: ")
+hobby=input("Your hobbies[atleast two hobbies]: ")
+print("")
+print("hello everyone,")
+print("My name is",name,".I was born on",year,"and I am currently ",age,"years old.Iam from",place,"and I live with my",house,".I am good at",good,"and my hobbies are",hobby,".I have always dreamed of becoming",job".")
+print("Thank you.")
